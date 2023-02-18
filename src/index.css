@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./resource/Galaxy.jpg");
+  background-size: inherit;
+  background-position: center;
 }
 
 code {

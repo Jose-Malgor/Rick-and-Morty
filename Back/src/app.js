@@ -9,7 +9,7 @@ const corsOptions = {
     optionSuccessStatus: 200,
 };
 
-app.unsubscribe(cors(corsOptions));   // para darle acceso a todas la dependencias
+app.use(cors(corsOptions));   // para darle acceso a todas la dependencias
 
 app.use(express.json());   //Middleware
 app.use('/', router);      // Middleware

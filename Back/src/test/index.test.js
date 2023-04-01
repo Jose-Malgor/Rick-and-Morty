@@ -2,7 +2,7 @@ const app = require("../app");
 const session = require("supertest");
 const agent = session(app);
 
-xdescribe("Test de RUTAS (get) onsearch y detail", () => {
+describe("Test de RUTAS (get) onsearch y detail", () => {
   describe("Get /onsearch/{id}", () => {
     it("Responde con status 200", async () => {
       await agent.get("/onsearch/1");
